@@ -550,6 +550,7 @@
     </div>
   </body>
   <script>
+    console.log($(window).width(), "nikhil");
     function MyOpen() {
       document.getElementById("nav").style.width = "270px";
       document.body.style.overflow = "hidden";
@@ -577,20 +578,18 @@
       },
     });
 
-    $(".mainbox-print").owlCarousel({
-      loop: true,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1,
+    $(document).ready(function () {
+      $(".mainbox-print").owlCarousel({
+        loop: true,
+        items: 4,
+        nav: true,
+        margin: 20,
+        responsive: {
+          360: {
+            items: 1,
+          },
         },
-        768: {
-          items: 3,
-        },
-        1000: {
-          items: 4,
-        },
-      },
+      });
     });
 
     AOS.init({

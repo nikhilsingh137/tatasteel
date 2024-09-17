@@ -1420,7 +1420,7 @@ body {
   .content-wrapper {
     width: 100%;
     height: auto;
-    padding: 0px 20px;
+    padding: 30px 20px;
   }
 
   .content-top {
@@ -1477,5 +1477,14 @@ body {
 
   .foot .foot-text p {
     color: orange;
+  }
+
+  .mainbox-topper {
+    flex-direction: column;
+    display: block;
+  }
+
+  .mainbox-file {
+    width: 100% !important;
   }
 }
