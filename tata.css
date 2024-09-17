@@ -1474,4 +1474,8 @@ body {
   .mainbox-print .owl-nav button.owl-prev {
     left: 4px;
   }
+
+  .foot .foot-text p {
+    color: orange;
+  }
 }
