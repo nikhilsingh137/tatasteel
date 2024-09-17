@@ -1516,7 +1516,15 @@ body {
     margin-top: 20px;
   }
 
+  .sustainability-glove h2 {
+    font-size: 18px;
+  }
+
   .sustainability-glove .sustainability-structure {
     padding-bottom: 30px;
+  }
+
+  .sustainability-glove .sustainability-structure p {
+    font-size: 25px;
   }
 }
