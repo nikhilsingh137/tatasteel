@@ -1486,4 +1486,37 @@ body {
   .mainbox-file {
     width: 100% !important;
   }
+
+  .sustainability-wrapper {
+    width: 100%;
+  }
+
+  .sustainability-top {
+    text-align: center;
+  }
+
+  .sustainability-banner {
+    display: block;
+  }
+
+  .sustainability-side {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .sustainability-divide {
+    align-items: center;
+  }
+
+  .sustainability-left {
+    width: 100%;
+  }
+
+  .sustainability-glove {
+    margin-top: 20px;
+  }
+
+  .sustainability-glove .sustainability-structure {
+    padding-bottom: 30px;
+  }
 }
